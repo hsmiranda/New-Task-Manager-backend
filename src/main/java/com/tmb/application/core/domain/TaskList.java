@@ -10,6 +10,15 @@ public class TaskList {
 
     private User user;
 
+    public TaskList() {
+    }
+
+    public TaskList(Long id, List<Task> tasks, User user) {
+        this.id = id;
+        this.tasks = tasks;
+        this.user = user;
+    }
+
     public Long getId() {
         return id;
     }
