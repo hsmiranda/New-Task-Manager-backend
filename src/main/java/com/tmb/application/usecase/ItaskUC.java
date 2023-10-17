@@ -1,8 +1,8 @@
-package com.tmb.bo;
+package com.tmb.application.usecase;
 
-import com.tmb.dto.TaskDTO;
+import com.tmb.presentation.dto.TaskDTO;
 
-public interface ItaskBO {
+public interface ItaskUC {
 
     public boolean isValidTask(TaskDTO dto);
 

@@ -1,4 +1,4 @@
-package com.tmb.dto;
+package com.tmb.presentation.dto;
 
 import java.util.Date;
 

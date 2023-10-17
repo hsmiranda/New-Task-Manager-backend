@@ -1,7 +1,7 @@
-package com.tmb.util;
+package com.tmb.model.services.utils;
 
-import com.tmb.dto.TaskDTO;
-import com.tmb.entity.Task;
+import com.tmb.presentation.dto.TaskDTO;
+import com.tmb.model.model.Task;
 
 public class TaskParse {
 
