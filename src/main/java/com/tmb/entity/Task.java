@@ -26,4 +26,7 @@ public class Task {
 
     @Column(name = "tasks_dt_datedue")
     private Date dateDue;
+
+    @Column(name = "task_bl_past")
+    private Boolean isPast;
 }
