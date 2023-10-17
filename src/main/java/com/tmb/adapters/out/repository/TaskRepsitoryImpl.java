@@ -1,6 +1,6 @@
-package com.tmb.model.repository.impl;
+package com.tmb.adapters.out.repository;
 
-import com.tmb.model.model.Task;
+import com.tmb.application.core.domain.Task;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 
 import java.util.List;
