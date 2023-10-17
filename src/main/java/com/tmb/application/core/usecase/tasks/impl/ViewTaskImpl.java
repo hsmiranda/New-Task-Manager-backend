@@ -5,7 +5,7 @@ import com.tmb.application.core.usecase.tasks.IViewTask;
 
 import java.util.List;
 
-public class ViewTask implements IViewTask {
+public class ViewTaskImpl implements IViewTask {
     @Override
     public List<Task> viewAllTasks() {
         return null;
